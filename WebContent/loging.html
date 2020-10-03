@@ -1,0 +1,70 @@
+
+<html>
+<head>
+	<title>login  </title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	
+	
+</head>
+<body >
+
+<div id="a1">
+	<div id="c">
+	<form  onsubmit="return  validateForm();" action="/Mess/Login" method="post" >
+		
+	 <select name="op" class="ba" id="selection">
+      <option value="select" hidden>select</option>
+      <option value="vendor">vendor</option>
+      <option value="student">student</option>
+    </select>
+<input class="ba" type="text" id="reg" placeholder="Registration No " name="Registration"><br>
+<input class="ba" type="password"  id="pas" placeholder="Password"
+name= "password"><br>
+	
+	
+
+<button type="submit"  id="d" >Login</button>
+
+</form>
+
+
+</div>
+
+
+</div>
+
+<script type="text/javascript" >
+		
+		function validateForm() {
+  var x = document.getElementById("reg");
+  var y = document.getElementById("pas");
+  var s = document.getElementById("selection"); // or in jQuery use: select = this;
+if (s.value=="select") {
+  // value is set to a valid option, so submit form
+  alert("select one option");
+  return false;
+}
+
+  
+ else if (x.value.trim() == "" ) {
+    alert("Name must be filled out");
+     return false;
+  }
+  else if(y.value.trim()=="")
+  {
+  	alert("password must be filled out");
+  	return false;
+  }
+  else
+  {
+return true;
+  }
+
+function tras()
+{
+	var x=document.createElement('<a href=" sign.html"></a>');
+}
+}
+	</script>
+</body>
+</html>

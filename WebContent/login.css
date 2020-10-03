@@ -1,0 +1,83 @@
+     body{
+
+     	background-image: url('photo1.jpg');
+			background-position: fixed;
+			background-size:100% 100%;
+				background-repeat:no-repeat;
+			
+		}
+
+
+		
+		
+		#a1
+		{
+			width:28%;
+			height: 55%;
+			background-color:#525353 ;
+			padding-left:0%; 
+			margin-left: 37%;
+			margin-top: 18%;
+				opacity: 0.9;
+         border-radius:20px 20px 25px 25px;
+					}
+				
+ 
+        #c{
+           width:100%;
+           height:66%;
+           // background-color:#CBF2F7;
+            
+           padding-top: 3%;
+           } 
+
+
+		.ba{
+          width:85%;
+         height:18%;
+        
+         margin-left:8%;
+         margin-top:7%;
+          } 
+
+
+
+#d{
+width:35%;
+height:15%;
+background-color:#F7C31E;
+margin-left:29%;
+margin-top: 15%;
+
+border:3px solid #F7C31E; 
+//color:white;
+font-size:2vw;
+font-family:calibrai;
+
+}
+
+
+#e1
+{ 
+
+width:10%;
+height:6%;
+background-color:#F70A06;
+border:3px solid #F70A06;
+color:white;
+font-size:2vw;
+font-family:calibrai;
+position: fixed;
+left:53%;
+bottom: 12.1%;
+
+}
+
+
+}
+
+
+
+
+
+	
